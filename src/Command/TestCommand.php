@@ -32,6 +32,8 @@ class TestCommand extends Command
             'Hello from Symfony Notifier!'
         ));
 
+        dd('lala');
+
         return Command::SUCCESS;
     }
 }
